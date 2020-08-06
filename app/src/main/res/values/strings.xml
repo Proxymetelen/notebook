@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">notebook</string>
+    <string name="main_menu_l1">Новая запись</string>
+    <string name="main_menu_l2">notebook</string>
+    <string name="main_menu_l3">notebook</string>
+    <string name="main_menu_l4">О программе</string>
+
+    <string name="button_save">Сохранить</string>
+    <string name="insert_activity_title">Вставить новую запись</string>
+</resources>
