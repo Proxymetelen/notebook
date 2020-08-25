@@ -23,6 +23,7 @@ class insertActivity : AppCompatActivity() {
 
         spinner_year.setBackgroundResource(R.drawable.edittext_bg)
         val adapter_spinner_year = ArrayAdapter(this,android.R.layout.simple_spinner_item, array_year)
+        adapter_spinner_year.setDropDownViewResource(R.layout.support_simple_spinner_dropdown_item)
         spinner_year.adapter = adapter_spinner_year
 
 
