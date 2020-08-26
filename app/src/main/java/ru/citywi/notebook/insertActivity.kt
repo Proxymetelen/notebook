@@ -1,9 +1,7 @@
 package ru.citywi.notebook
 
-import Person.array_month_eng
 import Person.array_month_rus
 import Person.array_year
-import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ArrayAdapter

@@ -1,11 +1,10 @@
 /*Клас для работы с персоналом*/
 package Person
-import  java.time.LocalDate
 import java.util.*
 
 val array_month_rus:Array<String> = arrayOf("Январь","Февраль","Март","Апрель","Май","Июнь","Июль","Август","Сентябрь","Октябрь","Ноябрь","Декабрь")
 val array_month_eng:Array<String> = arrayOf("January","February","March","April","May","June","July","August","September","October","November","December")
-val array_year:Array<Int> = arrayOf(1991,1992,1993)
+val array_year:Array<Int> = arrayOf(1991,1992,1993,1994,1995)
 
 class Person(
          var fio:String? = null,
@@ -27,8 +26,6 @@ class Person(
                 get() {
                         return "$day:$month:$year"
                 }
-
-
 
         val isAge:Int
                     get() {
