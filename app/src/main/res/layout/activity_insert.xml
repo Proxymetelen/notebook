@@ -3,11 +3,13 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/textView1"
+    <EditText
+        android:id="@+id/editTextTextPersonName"
         android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:text="TextView" />
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
 
     <Spinner
         android:id="@+id/spinner_month"
@@ -22,14 +24,15 @@
     <EditText
         android:id="@+id/editTextTextMultiLine"
         android:layout_width="match_parent"
-        android:layout_height="395dp"
+        android:layout_height="423dp"
         android:ems="10"
         android:gravity="start|top"
         android:inputType="textMultiLine" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button_save"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:onClick="OnClickSaveButton"
         android:text="@string/button_save" />
 </LinearLayout>
